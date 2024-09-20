@@ -2,13 +2,12 @@
 
 import { useState, useRef, useEffect } from 'react'
 import * as Tone from 'tone'
-import { Play, Pause, Upload } from 'lucide-react'
+import { Play, Pause } from 'lucide-react'
 import { Button } from './ui/button'
 import { Slider } from "@/components/ui/slider"
 import { ControlType } from '@/types/controlType'
 import CompressionPropertyHandler from './CompressionPropertyHandler'
 import { LoadingSpinner } from './ui/loading-spinner'
-import { BorderBeam } from './magicui/border-beam'
 
 const CompressionPlayer = () => {
   const [file, setFile] = useState<File | null>(null)

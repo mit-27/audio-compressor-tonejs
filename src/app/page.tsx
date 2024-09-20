@@ -1,8 +1,6 @@
 import CompressionPlayer from "@/components/CompressionPlayer";
 import GithubButton from "@/components/github-button";
 import DotPattern from "@/components/magicui/dot-pattern";
-import PulsatingButton from "@/components/magicui/pulsating-button";
-import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 const Home = () => {
