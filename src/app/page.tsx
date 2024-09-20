@@ -1,4 +1,5 @@
 import CompressionPlayer from "@/components/CompressionPlayer";
+import GithubButton from "@/components/github-button";
 import DotPattern from "@/components/magicui/dot-pattern";
 import PulsatingButton from "@/components/magicui/pulsating-button";
 import { Button } from "@/components/ui/button";
@@ -20,8 +21,10 @@ const Home = () => {
         </h1>
         <p className="max-w-xl text-balance text-left text-base tracking-tight text-black dark:font-medium dark:text-white md:text-center md:text-lg ">
                 Upload your audio file and control the compression settings. Built with <b>Tone.js</b> and <b>Next.js</b>.
-              </p>
-        <PulsatingButton pulseColor="gray" color="black" className="text-white bg-black m-5">Visit Github</PulsatingButton>
+        </p>
+
+        <GithubButton/>
+        
       
       <CompressionPlayer/>
     </div>
