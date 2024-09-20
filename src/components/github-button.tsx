@@ -1,6 +1,6 @@
 "use client"
 
-import PulsatingButton from "./magicui/pulsating-button"
+import PulsatingButton from "./ui/pulsating-button"
 import { GitHubLogoIcon } from "@radix-ui/react-icons"
 
 const GithubButton = () => {
