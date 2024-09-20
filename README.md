@@ -2,6 +2,8 @@
 
 This project is a web application that allows users to upload audio files and control the compression settings. Built with Tone.js and Next.js.
 
+Live URL: [https://audio-compressor-tonejs-mit27.vercel.app/](https://audio-compressor-tonejs-mit27.vercel.app/)
+
 ## Tech Stack
 
 - [Next.js](https://nextjs.org) - React framework for server-side rendering and static site generation
@@ -47,4 +49,3 @@ This project is a web application that allows users to upload audio files and co
    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
