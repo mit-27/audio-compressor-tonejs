@@ -9,6 +9,19 @@ const fontSans = FontSans({
 })
 
 export const metadata: Metadata = {
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://audio-compressor-tonejs-mit27.vercel.app/",
+    siteName: "Audio Compressor",
+    // images: [
+    //   {
+    //     url: "/og-image.png",
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
+  },
   title: "Audio Compressor",
   description: "A web application that allows users to upload audio files and control the compression settings. Built with Tone.js and Next.js.",
 };
