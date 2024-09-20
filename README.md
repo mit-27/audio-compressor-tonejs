@@ -4,6 +4,10 @@ This project is a web application that allows users to upload audio files and co
 
 Live URL: [https://audio-compressor-tonejs-mit27.vercel.app/](https://audio-compressor-tonejs-mit27.vercel.app/)
 
+## Preview
+
+<img width="972" alt="Screenshot 2024-09-20 at 1 52 57 PM" src="https://github.com/user-attachments/assets/fbd75e00-4a6d-4ebe-9c93-f1ed3758ebf9">
+
 ## Tech Stack
 
 - [Next.js](https://nextjs.org) - React framework for server-side rendering and static site generation
